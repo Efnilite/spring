@@ -1,0 +1,11 @@
+name: Spring
+description: "High-level plugin update manager."
+api-version: 1.19
+author: Efnilite
+version: ${project.version}
+main: dev.efnilite.spring.Spring
+depend: [vilib]
+load: STARTUP
+commands:
+  spring:
+    description: Spring's main command.
